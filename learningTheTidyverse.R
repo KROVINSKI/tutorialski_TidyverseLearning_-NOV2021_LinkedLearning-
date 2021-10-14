@@ -55,8 +55,13 @@ plyr::mapvalues
 # working directories are where R looks for data files
 # Projects - negate the use of use of setwd("blah computer name/folders")
 
-#Projects teach good practise and never have to use absolute file paths
+#Projects teach good practice and never have to use absolute file paths
 # jump right to read.csv("just the file name ")
 
 
 # Reproducibility
+
+
+
+
+# adding text to try and push this to GITHUB desktop
