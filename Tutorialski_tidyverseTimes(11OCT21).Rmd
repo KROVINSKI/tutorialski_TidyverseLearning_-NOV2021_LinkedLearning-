@@ -1,0 +1,146 @@
+-
+title: "Tidyverse Tutorial'ski"
+output:
+ html_document:
+    df_print: paged
+    code_folding: hide
+    toc: TRUE
+    toc_depth: 4
+    toc_float: true
+    theme: cerulean
+    highlight: haddock
+    smart: false
+editor_options: 
+  chunk_output_type: inline
+---
+
+
+Hello World
+
+Author: OA Lab, NWFSC
+Title: Tidyverse Tutorial'ski
+
+
+# Version Check
+```{r 0.1 Version Check , echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+#*********************************
+## Version Check
+#********************************* 
+R.version
+
+```
+
+
+
+
+# Libraries
+```{r 0.0 Libraries , echo=FALSE, results=FALSE, message=FALSE, warning=FALSE}
+#*********************************
+##Libraries
+#********************************* 
+library(plyr)
+library(nlme)
+library(tidyr)
+library(dbplyr)
+library(dplyr)
+library(data.table)
+library(tidyverse)
+#for graphing
+library(ggplot2)
+library(ggfortify)
+library(stringr)
+library(nlme)
+library(RColorBrewer)
+library(patchwork)
+#statistical analysis
+library(gdata)
+library(rsq)
+library(doBy)
+library(lme4)
+library(lmerTest)
+#Rnotebooks 
+library(gridExtra)
+library(kableExtra)
+library(todor)
+#metadata
+library(metacsv)
+
+```
+
+
+
+
+# 1.) Setting Working Directory
+```{r 1.) Setting Working Directory, echo=FALSE, results=FALSE, message=FALSE, warning=FALSE }
+#*********************************
+## 1.) Setting Working Directory
+#*********************************
+
+#set working directory to the correct folder
+# setwd("/Users/katherinerovinski/Documents/GitHub/Krill-pilot-2021/data")
+# getwd()
+# 
+# 
+# freshSPEC <- read_csv(here::here("data", "SPECsimpleJarTestResults.csv"))
+# write_meta_template(freshSPEC, here::here("data","SPECsimpleJarTestResults"))
+
+
+```
+
+
+What is the tidyverse?
+Selecting transcript lines in this section will navigate to timestamp in the video
+- [Instructor] So, what is the tidyverse? Well, the tidyverse is both a collection of R packages and an approach to how to do data science effectively and reproducibly with the R language.
+
+What is base R
+ systems and get a little bit distracted. First, let's discuss what the R language, Base R, and the Tidyverse R inter. The R language is an extremely popular scripting language used by millions of people around the world. Primarily, it's used for data analysis, modeling and visualization, what we commonly call data science and that's also what we'll be focusing on in this course. Many people think of R as statistical software but it's fundamentally not and it's a little bit upsetting when people say that. R is a programming language that has been adopted and curated by people interested in doing data science as flexibly as possible and without having to think about the actual programming side of things, what a computer's doing behind the scenes. 
+ The tidyverse is designed around a concept of tidydata. The tidyr library is designed for reshaping and transforming your imported data into a structure ready to manipulate, model, and visualize with the tidyverse.
+
+
+
+```{r}
+
+
+25^2
+# > 25^2
+# [1] 625
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+#**************E*N*D*************# 
+#*********************************
+## END OF SCRIPT | END OF DOCUMENT 
+#*********************************
+```
+
+
+## END OF SCRIPT | END OF DOCUMENT
+
+
+
+
+
+
+
+
+
+
+
+
